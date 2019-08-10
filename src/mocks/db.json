@@ -1,0 +1,44 @@
+{
+    "contacts": [
+        {
+            "gender": "female",
+            "title": "mrs",
+            "first": "asta",
+            "last": "mortensen",
+            "email": "asta.mortensen@example.com",
+            "dob": "1996-03-07T23:16:19Z"
+        },
+        {
+            "gender": "female",
+            "title": "ms",
+            "first": "nerea",
+            "last": "garrido",
+            "email": "nerea.garrido@example.com",
+            "dob": "1967-01-14T15:37:37Z"
+        },
+        {
+            "gender": "male",
+            "title": "mr",
+            "first": "morris",
+            "last": "west",
+            "email": "morris.west@example.com",
+            "dob": "1988-11-04T13:12:42Z"
+        },
+        {
+            "gender": "male",
+            "title": "mr",
+            "first": "james",
+            "last": "taylor",
+            "email": "james.taylor@example.com",
+            "dob": "1988-11-28T05:54:44Z"
+        },
+        {
+            "gender": "male",
+            "title": "mr",
+            "first": "akseli",
+            "last": "hiltunen",
+            "email": "akseli.hiltunen@example.com",
+            "dob": "1961-09-20T05:22:08Z"
+        }
+    ]
+}

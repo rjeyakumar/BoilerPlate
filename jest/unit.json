@@ -1,0 +1,19 @@
+{ 
+  "verbose": true,
+  "testURL": "http://localhost/", 
+  "coverageDirectory": "<rootDir>/coverage/",
+  "coveragePathIgnorePatterns": [
+    "<rootDir>/node_modules/",
+    "<rootDir>/src/(constants|utils)",
+    "<rootDir>/config"
+  ],
+  "moduleNameMapper": {
+    "envConfig$": "<rootDir>/src/config/env/development.js",
+    "applicationinsights-js": "<rootDir>/src/config/jest/fakeAppInsights.js",
+    "^.+\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/src/config/jest/FileStub.js",
+    "^.+\\.s?.css$": "<rootDir>/src/config/jest/CSSStub.js"
+    
+  },
+  "setupTestFrameworkScriptFile": "<rootDir>/src/config/jest/setupTests.js",
+  "setupFiles": ["<rootDir>/src/config/jest/mockForm.js"]
+}

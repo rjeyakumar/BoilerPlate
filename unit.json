@@ -1,0 +1,12 @@
+{  
+  "coverageDirectory": "<rootDir>/coverage/",
+  "coveragePathIgnorePatterns": [
+    "<rootDir>/node_modules/",
+    "<rootDir>/src/(constants|utils)",
+    "<rootDir>/config"
+  ],
+  "moduleNameMapper": {
+    "envConfig$": "<rootDir>/src/config/env/development.js"
+  },
+  "setupTestFrameworkScriptFile": "<rootDir>/src/config/jest/setupTests.js"
+}
